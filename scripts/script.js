@@ -11,3 +11,15 @@ mainEl.innerHTML = `<h1>DOM Manipulation</h1>`;
 
 // Add a class of flex-ctr to mainEl. // Hint: Use the Element.classList API.
 mainEl.classList.add(`flex-ctr`);
+
+// Select and cache the <nav id="top-menu"> element in a variable named topMenuEl.
+let topMenuE1 = document.getElementById(`top-menu`);
+console.log(topMenuEl)
+// Set the height of the topMenuEl element to be 100%.
+
+
+// Set the background color of topMenuEl to the value stored in the --top-menu-bg CSS custom
+// property.
+
+
+// Add a class of flex-around to topMenuEl.
